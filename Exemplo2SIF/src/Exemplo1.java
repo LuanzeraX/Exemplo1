@@ -5,16 +5,16 @@ public class Exemplo1 {
 	public static void main(String[] args) {
 		
 		int[] n = new int[5]; // local
-		lerDados(n); // argumento -> ser· enviada para o mÈtodo
+		lerDados(n); // argumento -> ser√° enviada para o m√©todo
 		int maior = maiorValor(n);
 		int menor = menorValor(n);
 		System.out.println("maior valor = "+ maior);
 		System.out.println("menor valor = "+ menor);
-
+		//mensagem via github :-)
 	}
 	
 	public static int maiorValor(int[] n) { //metodo com retorno
-		int aux = n[0];//inicializa com um valor que j· t· la dentro
+		int aux = n[0];//inicializa com um valor que j√° t√° la dentro
 		for(int i=0 ; i< n.length;i++) {
 			if(n[i] > aux) {
 				aux = n[i];
@@ -25,7 +25,7 @@ public class Exemplo1 {
 	
 	
 	public static int menorValor(int[] n) {
-		int aux = n[0];//inicializa com um valor que j· t· la dentro
+		int aux = n[0];//inicializa com um valor que j√° t√° la dentro
 		for(int i=0 ; i< n.length;i++) {
 			if(n[i] < aux) {
 				aux = n[i];
